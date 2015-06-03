@@ -11,7 +11,7 @@
 #   HUBOT_SHIP_EXTRA_SQUIRRELS
 #
 # Commands:
-#   ship it - Display a motivation squirrel
+#   chuzo - Display motivation image - Chris
 #
 # Author:
 #   maddox
