@@ -14,7 +14,7 @@
 #   chuzo - Display motivation image - Chris
 #
 # Author:
-#   maddox
+#   chris
 
 chusoimages = [
   "https://i.imgur.com/Mlpfb.gif",
@@ -61,6 +61,29 @@ chusoimages = [
   "https://i.imgur.com/p17Zs.gif",
   "https://i.imgur.com/p17Zs.gif",
   "https://i.imgur.com/p17Zs.gif",
+  "https://i.imgur.com/O8tFZ.gif",
+  "https://i.imgur.com/B0wld.gif",
+  "https://i.imgur.com/eZNacLq.gif",
+  "https://i.imgur.com/iEN2gIh.gif",
+  "https://i.imgur.com/NIh934D.gif",
+  "https://i.imgur.com/NoElYdb.gif",
+  "https://i.imgur.com/qAKn4dn.gif",
+  "https://i.imgur.com/SQANizl.gif",
+  "https://i.imgur.com/wRRkPq4.gif",
+  "https://i.imgur.com/YtKWRKk.gif",
+  "https://i.imgur.com/wSetJvt.gifv",
+  "https://i.imgur.com/TI793.gif",
+  "https://i.imgur.com/oeXlZ.gif",
+  "https://i.imgur.com/d7TBk.gif",
+  "https://i.imgur.com/gu8UW.gif",
+  "https://i.imgur.com/MTXzH.gif",
+  "https://i.imgur.com/nPPIr.gif",
+  "https://i.imgur.com/0rg9W.gif",
+  "https://i.imgur.com/7JN8L.gif",
+  "https://i.imgur.com/K0dpR.gif",
+  "https://i.imgur.com/8mhxt.gif",
+  "https://i.imgur.com/VGNX2.gif",
+  "https://i.imgur.com/LTfLK.gif",
 ]
 
 module.exports = (robot) ->
@@ -73,4 +96,16 @@ module.exports = (robot) ->
 
   robot.hear /linda/i, (msg) ->
     msg.send "Linda linda! " + msg.random chusoimages
+
+  robot.hear /exelente/i, (msg) ->
+    msg.send "Exelente!! " + msg.random chusoimages
+
+  robot.hear /excelente/i, (msg) ->
+    msg.send "Exelente!! " + msg.random chusoimages
+
+  robot.hear /rajado/i, (msg) ->
+    msg.send "Rajado rajado!! " + msg.random chusoimages
+
+  robot.hear /pichudo/i, (msg) ->
+    msg.send "Pichudo pichudo!! " + msg.random chusoimages
 
