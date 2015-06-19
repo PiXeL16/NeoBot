@@ -100,6 +100,9 @@ module.exports = (robot) ->
   robot.hear /exelente/i, (msg) ->
     msg.send "Exelente!! " + msg.random chusoimages
 
+  robot.hear /increible/i, (msg) ->
+    msg.send "Increible, asi es!! " + msg.random chusoimages
+
   robot.hear /excelente/i, (msg) ->
     msg.send "Exelente!! " + msg.random chusoimages
 
