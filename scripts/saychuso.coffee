@@ -1,14 +1,11 @@
 # Description:
-#   Rodent Motivation
-#
-#   Set the environment variable HUBOT_SHIP_EXTRA_SQUIRRELS (to anything)
-#   for additional motivation
+# Motivational images
 #
 # Dependencies:
 #   None
 #
 # Configuration:
-#   HUBOT_SHIP_EXTRA_SQUIRRELS
+#   None
 #
 # Commands:
 #   chuzo - Display motivation image - Chris

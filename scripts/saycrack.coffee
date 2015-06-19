@@ -1,10 +1,10 @@
 # Description:
-#
+# Motivation Images 
 # Dependencies:
 #   None
 #
 # Configuration:
-#   HUBOT_SHIP_EXTRA_SQUIRRELS
+#   None
 #
 # Commands:
 #   crack - Display motivation image - Chris
