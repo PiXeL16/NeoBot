@@ -23,12 +23,12 @@ chusoimages = [
   "https://i.imgur.com/Ie17FZ6.gif",
   "https://i.imgur.com/JDWO5PN.gif",
   "https://i.imgur.com/EqlL0qa.gif",
-  "https://i.imgur.com/T7eX9a2.gifv",
+  "https://i.imgur.com/T7eX9a2.gif",
   "https://i.imgur.com/pZaUjNK.gif",
-  "https://i.imgur.com/Gzh71Ku.gifv",
+  "https://i.imgur.com/Gzh71Ku.gif",
   "https://i.imgur.com/4mYD13u.gif",
-  "https://i.imgur.com/fNTb0HC.gifv",
-  "https://i.imgur.com/dnPnQuY.gifv",
+  "https://i.imgur.com/fNTb0HC.gif",
+  "https://i.imgur.com/dnPnQuY.gif",
   "https://i.imgur.com/vESj1.gif",
   "https://i.imgur.com/Mlpfb.gif",
   "https://i.imgur.com/9dt8z.gif",
@@ -50,7 +50,7 @@ chusoimages = [
   "https://i.imgur.com/epP1Z.gif",
   "https://i.imgur.com/8expm.gif",
   "https://i.imgur.com/p17Zs.gif",
-  "https://i.imgur.com/bepXT.gifv",
+  "https://i.imgur.com/bepXT.gif",
   "https://i.imgur.com/ayxIJ.gif",
   "https://i.imgur.com/vOqMG.gif",
   "https://i.imgur.com/GRVvV.gif",
@@ -68,7 +68,7 @@ chusoimages = [
   "https://i.imgur.com/SQANizl.gif",
   "https://i.imgur.com/wRRkPq4.gif",
   "https://i.imgur.com/YtKWRKk.gif",
-  "https://i.imgur.com/wSetJvt.gifv",
+  "https://i.imgur.com/wSetJvt.gif",
   "https://i.imgur.com/TI793.gif",
   "https://i.imgur.com/oeXlZ.gif",
   "https://i.imgur.com/d7TBk.gif",
@@ -108,4 +108,3 @@ module.exports = (robot) ->
 
   robot.hear /pichudo/i, (msg) ->
     msg.send "Pichudo pichudo!! " + msg.random chusoimages
-
