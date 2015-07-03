@@ -1,5 +1,5 @@
 # Description:
-# Motivation Images 
+# Motivation Images
 # Dependencies:
 #   None
 #
@@ -72,8 +72,9 @@ crackimages = [
   "http://i.imgur.com/F0701DP.gif",
   "http://i.imgur.com/Mim9Lge.gif",
   "http://i.imgur.com/bEflxRX.gif",
-  "http://i.imgur.com/fqe18p6.gif",  
-  
+  "http://i.imgur.com/fqe18p6.gif",
+  "http://i.imgur.com/wy3115K.gif",
+
 ]
 
 module.exports = (robot) ->
@@ -86,4 +87,3 @@ module.exports = (robot) ->
 
   robot.hear /volando/i, (msg) ->
     msg.send "Esta volando!! " + msg.random crackimages
-
