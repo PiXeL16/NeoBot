@@ -21,5 +21,6 @@ emojis = [
 
 module.exports = (robot) ->
 
-  robot.hear /new user/i, (msg) ->
-    msg.send "A new user hooray!! " + msg.random emojis
+  robot.catchAll (msg) ->
+    if msg.message.match /new user/i
+        msg.send "A new user hooray!! " + msg.random emojis
