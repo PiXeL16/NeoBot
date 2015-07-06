@@ -4,9 +4,6 @@
 # Dependencies:
 #   "wolfram": "0.2.2"
 #
-# Configuration:
-#   HUBOT_WOLFRAM_APPID - your AppID
-#
 # Commands:
 #   hubot question <question> - Searches Wolfram Alpha for the answer to the question
 #
