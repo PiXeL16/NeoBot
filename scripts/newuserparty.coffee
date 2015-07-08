@@ -13,14 +13,15 @@
 # Author:
 #   PiXeL16
 
-emojis = [
-  ":tada::tada::smile::tada::tada:",
-  ":confetti_ball::tada::smile::tada::confetti_ball:",
-  ":tada::tada::metal::tada::tada:",
+messages  = [
+  "A new user hooray!! :tada::tada::smile::tada::tada:",
+  "A new user eeeehhh!! :confetti_ball::tada::smile::tada::confetti_ball:",
+  "Its a new user, yes!! :tada::tada::metal::tada::tada:",
+  "A new user appeared in the Wild  :tada::poke::hatching_chick::tada:",
 ]
 
 module.exports = (robot) ->
 
   robot.catchAll (msg) ->
-    if msg.message.match /new user/i 
-        msg.send "A new user hooray!! " + msg.random emojis
+    if msg.message.match /new user/i
+        msg.send msg.random messages
