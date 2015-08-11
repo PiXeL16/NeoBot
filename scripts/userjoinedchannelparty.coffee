@@ -8,7 +8,7 @@
 #   None
 #
 # Commands:
-#   new user - Create a party when a new person joins a channel
+#   joined - Create a party when a new person joins a channel
 #
 # Author:
 #   PiXeL16
