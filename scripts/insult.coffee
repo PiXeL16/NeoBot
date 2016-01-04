@@ -15,6 +15,14 @@
 
 
 insults = [
+  "May the chocolate chips in your cookies always turn out to be raisins.",
+  "May every sock you wear be slightly rotated, just enough for it to be uncomfortable.",
+  "May your mother come to talk to you, and then leave your door slightly ajar, so that you have to get up and close it.",
+  "May your article load that extra little bit as you're about to click a link so you click an ad instead.",
+  "May both sides of your pillow be warm.",
+  "May you forever feel your cellphone vibrating in the pocket it's not even in.",
+  "May you always get up from your computer with your headphones still attached.",
+  "May your chair produce a sound similar to a fart, but only once, such that you cannot reproduce it to prove that it was just the chair.",
   "I don’t believe in plastic surgery, But in your case, Go ahead.",
   "People like you are the reason we have middle fingers.",
   "Why Don’t You Slip Into Something More Comfortable. Like A Coma?",
