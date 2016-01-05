@@ -13,5 +13,6 @@
   "hubot-has-no-idea",
   "hubot-minions",
   "hubot-pokedex",
-  "hubot-youtube"
+  "hubot-youtube",
+  "hubot-insults"
 ]

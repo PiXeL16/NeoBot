@@ -12,6 +12,7 @@
     "hubot-has-no-idea": "^1.2.0",
     "hubot-help": "^0.1.2",
     "hubot-heroku-keepalive": "^1.0.1",
+    "hubot-insults": "^1.0.1",
     "hubot-maps": "0.0.2",
     "hubot-minions": "0.0.2",
     "hubot-pokedex": "0.0.4",
